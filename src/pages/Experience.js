@@ -7,6 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { IoIosSchool } from "react-icons/io";
 import { MdWorkHistory } from "react-icons/md";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Experience() {
   return (
@@ -51,6 +52,7 @@ function Experience() {
           <p>Developed and Maintained the webpage</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      <Footer />
     </div>
   );
 }
