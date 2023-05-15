@@ -22,6 +22,9 @@ const router = createBrowserRouter([
     path: "/projects",
     element: <Projects />,
   },
+  {
+    path: "/https://www.instagram.com/idayat_codes/",
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

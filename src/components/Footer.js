@@ -1,7 +1,7 @@
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 import "../styles/Footer.css";
 
@@ -16,9 +16,27 @@ function Footer() {
             Let's talk here
           </a>
         </div>
-        <BsInstagram />
-        <BsTwitter />
-        <BsFacebook />
+        <a
+          href="https://www.instagram.com/idayat_codes/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsInstagram />
+        </a>
+        <a
+          href="https://github.com/IdayatSanni"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/idayat-sanni-a46b16102/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsLinkedin />
+        </a>
       </div>
       <p> &copy; 2022 idayatsanni.com</p>
     </div>
